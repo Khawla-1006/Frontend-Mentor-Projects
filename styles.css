@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(245, 241, 241);
+    font-size: 14px;
+    overflow: hidden;
+    font-family: monospace;
+}
+
+.container{
+    max-width: 375px;
+    height: 620px;
+    border: solid 4px rgb(10, 42, 83);
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 40px;
+    /* end of outer styling */
+    padding: 50px 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    /* end of inner styling */
+}
+
+img{
+    border-radius: 50%;
+    width: 100px;
+    border: solid 2px white;
+}
+
+h1{
+    font-size: 23px;
+    font-weight: 700 ;
+    color: rgb(10, 42, 83);
+}
+
+h3{
+    font-weight: 400;
+    color:rgb(102, 147, 206);
+}
+
+h4{
+    color: rgb(22, 97, 196);
+    font-weight: 600;
+}
+ 
+button{
+    margin-top: 10px;
+    background-color: none;
+    border: solid 2px rgb(10, 42, 83);
+    border-radius: 12px;
+    height: 35px;
+    cursor: pointer;
+    padding: 5px;
+    font-family: monospace;
+    color: rgb(10, 42, 83);
+}
+
+button:hover{
+    background-color: rgb(102, 147, 206) ;
+    color: white;
+}
+
+button:active{
+    border: none;
+}
+
+.footer{
+    margin: auto;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    padding: 13px;
+    color: rgb(102, 147, 206) ;
+}
+
+.footer > a {
+    color: rgb(10, 42, 83);
+    text-decoration: none;
+}
+
+.footer > a:hover{
+    text-decoration: underline;
+}
